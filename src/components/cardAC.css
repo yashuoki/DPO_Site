@@ -1,0 +1,242 @@
+.card {
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card h3 {
+  font-size: 1.8rem;
+  margin: 15px 0;
+}
+
+.type {
+  font-size: 1.2rem;
+  color: #f8e8dd;
+}
+
+.price-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 1.2rem;
+}
+
+.new-price {
+  color: #ebcab2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.quantity button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.quantity button:hover {
+  background-color: #ebcab2;
+}
+
+.quantity span {
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.add-to-cart {
+  background-color: #ebcab2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.add-to-cart:disabled {
+  background-color: #666;
+  cursor: not-allowed;
+}
+
+.add-to-cart:hover {
+  background-color: #f2b600;
+}
+
+.review-button {
+  background-color: #ebcab2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.review-button:hover {
+  background-color: #f2b600;
+}
+
+.review-form {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  color: #f8e8dd;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.review-form input,
+.review-form textarea {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.review-form button {
+  background-color: #ebcab2;
+  color: #333;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.review-form button:hover {
+  background-color: #f2b600;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    width: 80%;
+    margin: 15px auto;
+  }
+
+  .card h3 {
+    font-size: 1.7rem;
+  }
+
+  .new-price {
+    font-size: 1.4rem;
+  }
+
+  .quantity span {
+    font-size: 1.4rem;
+  }
+
+  .quantity button {
+    padding: 9px;
+    font-size: 1.1rem;
+  }
+
+  .add-to-cart, .review-button {
+    font-size: 1.1rem;
+    padding: 9px 18px;
+  }
+
+  .review-form button {
+    width: 80%;
+  }
+}
+
+@media (max-width: 992px) {
+  .card {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  .card h3 {
+    font-size: 1.6rem;
+  }
+
+  .new-price {
+    font-size: 1.3rem;
+  }
+
+  .quantity span {
+    font-size: 1.3rem;
+  }
+
+  .quantity button {
+    padding: 8px;
+    font-size: 1rem;
+  }
+
+  .add-to-cart, .review-button {
+    font-size: 1.1rem;
+    padding: 8px 16px;
+  }
+
+  .review-form button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .card h3 {
+    font-size: 1.5rem;
+  }
+
+  .new-price {
+    font-size: 1.2rem;
+  }
+
+  .quantity span {
+    font-size: 1.3rem;
+  }
+
+  .quantity button {
+    padding: 8px;
+    font-size: 1rem;
+  }
+
+  .add-to-cart, .review-button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .review-form button {
+    width: 100%;
+  }
+}

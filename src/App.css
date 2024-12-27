@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #0B1A19, #020405);
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15%;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.App-header {
+  background-color: #020405;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 80px;
+  align-items: center;
+}
+
+.App-header .container {
+  margin: 0 auto;
+  padding: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+}
+
+.working-hours {
+  font-size: 1.8rem;
+  color: #EBCAB2;
+  margin-top: 5px;
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.phone-link {
+  color: #EBCAB2;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+.phone-link:hover {
+  text-decoration: underline;
+}
+
+.city-select {
+  background: #222;
+  color: #F8E8DD;
+  border: 1px solid #444;
+  padding: 5px;
+}
+
+.header-nav .nav-link {
+  margin: 0 0 0 50px;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #F8E8DD;
+}
+
+.header-nav .nav-link:hover {
+  color: #EBCAB2;
+  text-decoration: underline;
+}
+
+.header-nav .nav-link.active {
+  color: #EBCAB2;
+  text-decoration: underline;
+}
+
+.page-content {
+  padding: 20px 0;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 10%;
+  }
+
+  .header-nav .nav-link {
+    font-size: 1.6rem;
+  }
+
+  .phone-link {
+    font-size: 1.2rem;
+  }
+
+  .working-hours {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .header-nav .nav-link {
+    font-size: 1.4rem;
+  }
+
+  .phone-link {
+    font-size: 1.1rem;
+  }
+
+  .working-hours {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5%;
+  }
+
+  .header-nav .nav-link {
+    font-size: 1.2rem;
+    margin: 0 20px;
+  }
+
+  .phone-link {
+    font-size: 1rem;
+  }
+
+  .working-hours {
+    font-size: 1.2rem;
+  }
+}

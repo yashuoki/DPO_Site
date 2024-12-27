@@ -1,0 +1,218 @@
+.actions, .catalog, .about {
+  padding: 40px 15%;
+}
+
+.actions h2, .catalog h2, .about h2, .delivery h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #EBCAB2;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-list .card {
+  flex: 1 1 300px;
+  max-width: 300px;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 15%;
+}
+
+.delivery form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.delivery input,
+.delivery textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.delivery button {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.delivery button:hover {
+  background-color: #45a049;
+}
+
+.delivery ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.delivery ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.delivery .clear-cart-btn {
+  margin-left: 10px;
+  background-color: #af4c4c;
+}
+
+.delivery .clear-cart-btn:hover {
+  background-color: #a04545;
+}
+
+.delivery h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.banner h3 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  color: #F8E8DD;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.company-info {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #F8E8DD;
+  margin-top: 30px;
+}
+
+.company-info p {
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.company-info p:last-child {
+  margin-bottom: 0;
+}
+
+.error-log {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+.error-log ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.error-log li {
+  color: red;
+  font-size: 1rem;
+}
+
+.order-description {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.order-description h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.order-description p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.order-description h4 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .actions, .catalog, .about {
+    padding: 40px 10%;
+  }
+
+  .product-list .card {
+    flex: 1 1 250px;
+    max-width: 250px;
+  }
+
+  .delivery {
+    padding: 40px 10%;
+  }
+
+  .delivery form {
+    max-width: 450px;
+  }
+
+  .banner h3 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .actions, .catalog, .about {
+    padding: 30px 5%;
+  }
+
+  .product-list .card {
+    flex: 1 1 200px;
+    max-width: 200px;
+  }
+
+  .delivery form {
+    max-width: 400px;
+  }
+
+  .banner h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .actions, .catalog, .about {
+    padding: 20px 5%;
+  }
+
+  .product-list .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .delivery form {
+    max-width: 100%;
+  }
+
+  .banner h3 {
+    font-size: 1.2rem;
+  }
+
+  .company-info p {
+    font-size: 1rem;
+  }
+}
