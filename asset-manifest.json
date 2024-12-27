@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DPO-Site/static/css/main.b3387e48.css",
+    "main.js": "/DPO-Site/static/js/main.3147a2ca.js",
+    "static/media/whey_gold.png": "/DPO-Site/static/media/whey_gold.e0ad91c09b073c90dcdf.png",
+    "static/media/whey_blue_complete.png": "/DPO-Site/static/media/whey_blue_complete.acfab696593731fd52e6.png",
+    "static/media/whey-syntha-6.png": "/DPO-Site/static/media/whey-syntha-6.fa3d4ebb24f50239dafb.png",
+    "static/media/bcaa.png": "/DPO-Site/static/media/bcaa.341a4c382766f815bcb3.png",
+    "static/media/creatine_green.png": "/DPO-Site/static/media/creatine_green.fdcd62e736cba9049fc1.png",
+    "static/media/glutamine.png": "/DPO-Site/static/media/glutamine.56fe0978d3039b3febdb.png",
+    "static/media/creatine_micronized.png": "/DPO-Site/static/media/creatine_micronized.03b9ce0428062c14bb15.png",
+    "static/media/creatine_nic.png": "/DPO-Site/static/media/creatine_nic.ab0335ddedd6a593b35d.png",
+    "static/media/whey_3matrix.png": "/DPO-Site/static/media/whey_3matrix.53c255b2edf4751889e8.png",
+    "static/media/sport.png": "/DPO-Site/static/media/sport.4bb80c6fe399fa7b4817.png",
+    "static/media/whey_white.png": "/DPO-Site/static/media/whey_white.d9ee502e7f78068f1427.png",
+    "index.html": "/DPO-Site/index.html",
+    "main.b3387e48.css.map": "/DPO-Site/static/css/main.b3387e48.css.map",
+    "main.3147a2ca.js.map": "/DPO-Site/static/js/main.3147a2ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3387e48.css",
+    "static/js/main.3147a2ca.js"
+  ]
+}
